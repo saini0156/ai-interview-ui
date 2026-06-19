@@ -1,0 +1,29 @@
+Arjun Saini
+Senior Python Developer & Machine Learning Engineer
+
+Email: arjun.saini@example.com | Phone: +1-555-0199 | Location: San Francisco, CA
+
+SUMMARY
+Highly accomplished Software Engineer with over 5 years of professional experience specializing in Python development, Natural Language Processing (NLP), Machine Learning, and Neural Networks. Proven track record of building and deploying production-grade microservices and robust AI systems.
+
+SKILLS
+- Programming Languages: Python, SQL, C++, Bash
+- ML/AI: Machine Learning, Deep Learning, Neural Networks, Backpropagation, CNN, RNN
+- NLP Tools: Natural Language Processing, spaCy, NLTK, Transformers, BERT, TF-IDF
+- Frameworks: TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, FastAPI, Flask, Django
+- Databases & Infrastructure: PostgreSQL, SQLite, MySQL, Docker, Git, REST APIs
+
+EXPERIENCE
+Lead AI Developer | AI Solutions Inc. (2023 - Present)
+- Developed and optimized custom NLP pipelines using spaCy and BERT, improving semantic match rates by 28% for enterprise search systems.
+- Designed and trained deep learning models including CNNs and Recurrent Neural Networks (RNNs) for complex sequence prediction tasks.
+- Created microservices using Python and FastAPI, serving over 10 million daily inference requests with low latency.
+
+Machine Learning Engineer | TechCorp (2021 - 2023)
+- Built predictive machine learning models using Scikit-learn and pandas to automate internal operations.
+- Engineered complex SQL queries and structured relational schemas using PostgreSQL, speeding up data fetching pipelines by 40%.
+- Implemented core data structures and variable handling optimization in Python to speed up processing of large-scale text databases.
+
+EDUCATION
+Master of Science in Computer Science (Specialization in AI & NLP)
+University of California, Berkeley
