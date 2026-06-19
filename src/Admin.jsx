@@ -289,20 +289,7 @@ export default function Admin() {
   const SortIcon = ({ k }) => sortKey === k ? (sortAsc ? " ↑" : " ↓") : " ↕";
 
   /* ─────────────────────────────── EARLY RETURNS ───────────────── */
-  if (!isConfigured) {
-    return (
-      <div style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center", padding: 24 }}>
-        <div className="glass-card animate-scale-pop" style={{ maxWidth: 480, width: "100%", padding: 48, textAlign: "center", borderColor: "var(--danger)" }}>
-          <div style={{ fontSize: 56, marginBottom: 20 }}>🔥</div>
-          <h2 style={{ color: "var(--danger)", marginBottom: 12 }}>Firebase Not Configured</h2>
-          <p style={{ color: "var(--text-muted)", fontSize: 14, lineHeight: 1.7, marginBottom: 28 }}>
-            Add your <code style={{ color: "var(--primary)", background: "var(--surface-up)", padding: "2px 6px", borderRadius: 4 }}>VITE_FIREBASE_*</code> keys to a <code style={{ color: "var(--primary)", background: "var(--surface-up)", padding: "2px 6px", borderRadius: 4 }}>.env</code> file to enable the admin dashboard and cloud database.
-          </p>
-          <button onClick={() => window.location.href = "/"} className="btn btn-primary">← Return to App</button>
-        </div>
-      </div>
-    );
-  }
+
 
   if (loading) {
     return (
