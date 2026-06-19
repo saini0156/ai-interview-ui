@@ -1229,12 +1229,7 @@ function Landing({ student, setStudent, name, setName, field, setField, onStart,
                 </div>
               </div>
 
-              {/* Custom File Upload */}
-              <label style={{ display: "block", fontSize: 11, fontWeight: 700, color: T.muted, marginBottom: 8, letterSpacing: "0.06em", textTransform: "uppercase" }}>Custom Dataset (Optional)</label>
-              <div style={{ display: "flex", alignItems: "center", background: T.surfaceUp, border: `1px dashed ${T.border}`, borderRadius: 12, padding: "10px 16px", marginBottom: 24 }}>
-                <span style={{ fontSize: 20, marginRight: 12 }}>📂</span>
-                <input type="file" accept=".csv" onChange={handleFileUpload} style={{ color: T.text, fontSize: 13, flex: 1, cursor: "pointer" }} />
-              </div>
+
 
               {err && <div style={{ color: T.danger, fontSize: 13, marginBottom: 12 }}>⚠ {err}</div>}
 
